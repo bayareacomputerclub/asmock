@@ -17,12 +17,10 @@ package asmock.integration.flexunit
 		private static const TIMEOUT_PER_CLASS : int = 5000;
 		
 		private var _proxyRepository : IProxyRepository;
-		private var _metadata : XMLList;
-		private var _target : Object;
+		private var _metadata : Array;
 		
-		public function PrepareMocks(proxyRepository : IProxyRepository, metadata : XMLList, target : Object)
+		public function PrepareMocks(proxyRepository : IProxyRepository, metadata : Array)
 		{
-			this._target = _target;
 			this._metadata = metadata;			
 			this._proxyRepository = proxyRepository;
 		}

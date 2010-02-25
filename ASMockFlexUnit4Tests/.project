@@ -15,4 +15,16 @@
 		<nature>com.adobe.flexbuilder.project.flexnature</nature>
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>[source path] ASMock-src</name>
+			<type>2</type>
+			<locationURI>LOCAL_GIT_OBT/vendor/flex/asmock.0.9/ASMock/src</locationURI>
+		</link>
+		<link>
+			<name>[source path] ASMockFlexUnit4-src</name>
+			<type>2</type>
+			<locationURI>LOCAL_GIT_OBT/vendor/flex/asmock.0.9/ASMockFlexUnit4/src</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

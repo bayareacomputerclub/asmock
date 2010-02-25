@@ -31,7 +31,7 @@ package asmock.tests
 			// suite.addTestSuite(VectorFixture); // Uncomment when targetting flash 10
 			suite.addTestSuite(StubOptionsFixture);
 			suite.addTestSuite(NoPackageIntegrationFixture);
-			suite.addTestSuite(OptionalArgumentsFixture);
+			//suite.addTestSuite(OptionalArgumentsFixture);
 			
 			// asmock.tests.framework.impl.strict
 			suite.addTestSuite(StrictRecordMockStateFixture);
@@ -78,7 +78,7 @@ package asmock.tests
 			
 			// asmock.tests.framework.util
 			suite.addTestSuite(MethodUtilFixture);
-			suite.addTestSuite(ClassUtilityFixture);
+			//suite.addTestSuite(ClassUtilityFixture);
 			
 			// asmock.tests.reflection
 			suite.addTestSuite(MethodInfoFixture);

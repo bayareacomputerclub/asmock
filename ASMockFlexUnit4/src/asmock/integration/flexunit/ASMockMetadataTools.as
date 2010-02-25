@@ -4,6 +4,8 @@ package asmock.integration.flexunit
 	
 	import flex.lang.reflect.Klass;
 	import flex.lang.reflect.Method;
+	import flex.lang.reflect.metadata.MetaDataAnnotation;
+	import flex.lang.reflect.metadata.MetaDataArgument;
 	
 	public class ASMockMetadataTools
 	{
@@ -27,7 +29,7 @@ package asmock.integration.flexunit
 			return false;
 		}
 		
-		public static function getMockClasses(metadata : XMLList) : Array
+		public static function getMockClasses(metadata : Array) : Array
 		{
 			var classNames : Array = getArgValuesFromMetaDataNode(metadata, 
 			 	MOCK_METADATA, MOCK_METADATA_TYPE_KEY);
@@ -51,20 +53,22 @@ package asmock.integration.flexunit
 			return klass;
 		}
 		
-		public static function getArgValuesFromMetaDataNode( nodes:XMLList, metaDataName:String, key:String ):Array {
-			var value:String;
-			var metaNodes:XMLList;
+		public static function getArgValuesFromMetaDataNode( nodes:Array, metaDataName:String, key:String ):Array {
 			
 			var values : Array = new Array();
 
-			for each(var node : XML in nodes.(@name == metaDataName)) {
-			
-				var typeArg : String = null;
-				var defaultArg : String = null;  
+			for each(var node : MetaDataAnnotation in nodes) {
+				if(!(node.name == metaDataName)) continue;
+				var typeArg : String = "";
+				var defaultArg : String = "";  
 
-				if ( node.arg ) {
-					typeArg = String( node.arg.(@key==key).@value );
-					defaultArg = String( node.arg.(@key=="").@value );
+				if ( node.arguments ) {
+					for each(var arg:MetaDataArgument in node.arguments) {
+						if(arg.key == key)
+							typeArg = arg.value;
+						else
+							defaultArg = arg.key
+					}
 				}
 				
 				var hasType : Boolean = (typeArg.length > 0);

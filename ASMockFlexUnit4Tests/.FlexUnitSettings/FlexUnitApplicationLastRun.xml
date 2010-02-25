@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="ASMockFlexUnit4Tests">
+<testsuite name="asmock.integration.flexunit.integrationTests:ReferenceInterfaceIntegrationFixture" type="testsuiteclass"/>
+</testsuite>
+</testrun>
