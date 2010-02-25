@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+
+	<!-- The application identifier string, unique to this application. Required. -->
+	<id>asmock.test.UnitTests</id>
+
+	<!-- Used as the filename for the application. Required. -->
+	<filename>UnitTests</filename>
+
+	<!-- The name that is displayed in the AIR application installer. Optional. -->
+	<name>UnitTests</name>
+
+	<!-- An application version designator (such as "v1", "2.5", or "Alpha 1"). Required. -->
+	<version>v1</version>
+
+	<!-- Settings for the application's initial window. Required. -->
+	<initialWindow>
+		<!-- The main SWF or HTML file of the application. Required. -->
+		<!-- Note: In Flex Builder, the SWF reference is set automatically. -->
+		<content>[This value will be overwritten by Flex Builder in the output app.xml]</content>
+	</initialWindow>
+
+</application>

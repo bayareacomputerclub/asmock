@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	xmlns:fu="flexunit.flexui.*"
+	creationComplete="creationCompleteHandler()">
+	<mx:Script>
+		<![CDATA[
+			import flemit.tests.FlemitTestProvider;
+			import asmock.util.StringBuilder;
+			import asmock.util.ClassUtility;
+			import asmock.Enum;
+			import asmock.framework.Validate;
+			import asmock.framework.Range;
+			import asmock.framework.MethodOptions;
+			import asmock.framework.ASMockInterceptor;
+			import asmock.tests.TestProvider;
+			import flexunit.framework.TestSuite;
+			
+			private function creationCompleteHandler() : void
+			{
+				var ts : TestSuite = new TestSuite();
+				
+				new TestProvider().addTests(ts);
+				new FlemitTestProvider().addTests(ts);
+				
+				testRunner.test = ts;
+				testRunner.startTest();
+			}
+		]]>
+	</mx:Script>
+	
+	<fu:TestRunnerBase id="testRunner" />
+</mx:WindowedApplication>

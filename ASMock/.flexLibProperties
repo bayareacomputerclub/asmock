@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexLibProperties version="1">
+<includeClasses>
+<classEntry path="asmock.framework.Expect"/>
+<classEntry path="asmock.framework.constraints.EndsWith"/>
+<classEntry path="asmock.framework.constraints.ListEquals"/>
+<classEntry path="flemit.framework.BitReader"/>
+<classEntry path="asmock.framework.methodRecorders.MethodRecorderBase"/>
+<classEntry path="asmock.framework.impl.stub.StubVerifiedMockState"/>
+<classEntry path="asmock.framework.constraints.Or"/>
+<classEntry path="asmock.framework.constraints.PredicateConstraint"/>
+<classEntry path="asmock.framework.constraints.ArrayEquals"/>
+<classEntry path="asmock.framework.constraints.ComparingConstraint"/>
+<classEntry path="asmock.framework.impl.dynamicMock.DynamicReplayMockState"/>
+<classEntry path="asmock.framework.MockRepository"/>
+<classEntry path="asmock.framework.constraints.Equal"/>
+<classEntry path="asmock.framework.constraints.Like"/>
+<classEntry path="asmock.framework.constraints.Anything"/>
+<classEntry path="asmock.framework.constraints.Not"/>
+<classEntry path="asmock.framework.impl.strict.StrictReplayMockState"/>
+<classEntry path="asmock.framework.constraints.Is"/>
+<classEntry path="asmock.framework.impl.stub.StubRecordMockState"/>
+<classEntry path="flemit.framework.SWFInput"/>
+<classEntry path="flemit.framework.tags.UnknownTag"/>
+<classEntry path="asmock.framework.constraints.Text"/>
+<classEntry path="asmock.framework.constraints.ListLength"/>
+<classEntry path="flemit.framework.SWF"/>
+<classEntry path="flemit.framework.bytecode.MethodFlags"/>
+<classEntry path="asmock.framework.constraints.PropertyIs"/>
+<classEntry path="asmock.framework.impl.MockedObject"/>
+<classEntry path="asmock.framework.constraints.ArrayLength"/>
+<classEntry path="asmock.framework.methodRecorders.OrderedMethodRecorder"/>
+<classEntry path="asmock.framework.impl.stub.StubReplayMockState"/>
+<classEntry path="flemit.framework.SWFReader"/>
+<classEntry path="asmock.framework.constraints.TypeOf"/>
+<classEntry path="asmock.framework.constraints.And"/>
+<classEntry path="asmock.framework.impl.strict.StrictVerifiedMockState"/>
+<classEntry path="asmock.framework.constraints.PropertyConstraint"/>
+<classEntry path="asmock.framework.constraints.Property"/>
+<classEntry path="asmock.framework.impl.dynamicMock.DynamicRecordMockState"/>
+<classEntry path="asmock.framework.impl.dynamicMock.DynamicVerifiedMockState"/>
+<classEntry path="flemit.framework.bytecode.ClassFlags"/>
+<classEntry path="asmock.framework.constraints.OneOf"/>
+<classEntry path="asmock.framework.methodRecorders.ProxyMethodExpectationsDictionary"/>
+<classEntry path="asmock.framework.SetupResult"/>
+<classEntry path="asmock.framework.impl.strict.StrictRecordMockState"/>
+<classEntry path="StubOptions"/>
+<classEntry path="asmock.reflection.TypeNotFoundError"/>
+<classEntry path="asmock.framework.constraints.Contains"/>
+</includeClasses>
+<includeResources/>
+<namespaceManifests/>
+</flexLibProperties>
