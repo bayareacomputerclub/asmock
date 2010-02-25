@@ -1,0 +1,725 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../print.css" type="text/css" media="print">
+<meta content="Is,asmock.framework.constraints.Is,all,any,anything,equal,greaterThan,greaterThanOrEqual,isNull,lessThan,lessThanOrEqual,matching,notEqual,notNull,notSame,same,typeOf" name="keywords">
+<title>asmock.framework.constraints.Is</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'Is - ASMock API Documentation';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">ASMock API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../index-list.html')" href="../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../index.html?asmock/framework/constraints/Is.html&amp;asmock/framework/constraints/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;Is</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class Is"); titleBar_setSubNav(false,false,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">asmock.framework.constraints</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class Is</td>
+</tr>
+</table>
+<p></p>
+  Provides static methods that create general constraints to be used with 
+  IMethodOptions.constraints  
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#all()">all</a>(constraints:Array):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument be constrained by ALL the 
+   constraints provided.</div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#any()">any</a>(constraints:Array):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument be constrained by ANY the 
+   constraints provided.</div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#anything()">anything</a>():<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Removes validation on the argument 
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#equal()">equal</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must equal the value provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#greaterThan()">greaterThan</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be greater than the value provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#greaterThanOrEqual()">greaterThanOrEqual</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be greater than or equal to the value provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#isNull()">isNull</a>():<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be null
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#lessThan()">lessThan</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be less than the value provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#lessThanOrEqual()">lessThanOrEqual</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be less than or equal to the value provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#matching()">matching</a>(func:Function):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies a predicate function that will determine whether the 
+   argument is valid at runtime.</div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#notEqual()">notEqual</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must not equal the value provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#notNull()">notNull</a>():<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must not be null
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#notSame()">notSame</a>(obj:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must not be the same object as the value provided.</div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#same()">same</a>(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be the same object as the value provided.</div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#typeOf()">typeOf</a>(cls:Class):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Specifies that the argument must be, inherit from, or implement 
+   the class provided
+   </div>
+</td><td class="summaryTableOwnerCol">Is</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="all()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">all</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function all(constraints:Array):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument be constrained by ALL the 
+   constraints provided.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">constraints</span>:Array</code> &mdash; An array of AbstractConstraint objects 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        An And constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="And.html" target="">And</a>
+</div>
+</div>
+<a name="any()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">any</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function any(constraints:Array):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument be constrained by ANY the 
+   constraints provided.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">constraints</span>:Array</code> &mdash; An array of AbstractConstraint objects 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        An Or constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Or.html" target="">Or</a>
+</div>
+</div>
+<a name="anything()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">anything</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function anything():<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Removes validation on the argument 
+   </p><p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        An Anything constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Anything.html" target="">Anything</a>
+</div>
+</div>
+<a name="equal()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">equal</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function equal(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must equal the value provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        An Equal constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Equal.html" target="">Equal</a>
+</div>
+</div>
+<a name="greaterThan()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">greaterThan</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function greaterThan(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be greater than the value provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A ComparingConstraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="ComparingConstraint.html" target="">ComparingConstraint</a>
+</div>
+</div>
+<a name="greaterThanOrEqual()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">greaterThanOrEqual</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function greaterThanOrEqual(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be greater than or equal to the value provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A ComparingConstraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="ComparingConstraint.html" target="">ComparingConstraint</a>
+</div>
+</div>
+<a name="isNull()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">isNull</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function isNull():<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be null
+   </p><p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        An Equal constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Equal.html" target="">Equal</a>
+</div>
+</div>
+<a name="lessThan()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">lessThan</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function lessThan(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be less than the value provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A ComparingConstraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="ComparingConstraint.html" target="">ComparingConstraint</a>
+</div>
+</div>
+<a name="lessThanOrEqual()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">lessThanOrEqual</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function lessThanOrEqual(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be less than or equal to the value provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A ComparingConstraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="ComparingConstraint.html" target="">ComparingConstraint</a>
+</div>
+</div>
+<a name="matching()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">matching</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function matching(func:Function):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies a predicate function that will determine whether the 
+   argument is valid at runtime.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">func</span>:Function</code> &mdash; The predicate that will accept the argument and return a Boolean  
+   (true if the argument is valid; false otherwise)
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A PredicateConstraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="PredicateConstraint.html" target="">PredicateConstraint</a>
+</div>
+</div>
+<a name="notEqual()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">notEqual</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function notEqual(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must not equal the value provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A negated Equal constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Not.html" target="">Not</a>
+<br>
+<a href="Equal.html" target="">Equal</a>
+</div>
+</div>
+<a name="notNull()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">notNull</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function notNull():<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must not be null
+   </p><p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A negated Equal constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Not.html" target="">Not</a>
+<br>
+<a href="Equal.html" target="">Equal</a>
+</div>
+</div>
+<a name="notSame()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">notSame</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function notSame(obj:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must not be the same object as the value provided. 
+   The values are compared for object instances, not value.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A negated Same constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Not.html" target="">Not</a>
+<br>
+<a href="Same.html" target="">Same</a>
+</div>
+</div>
+<a name="same()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">same</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function same(value:Object):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be the same object as the value provided. 
+   The values are compared for object instances, not value.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to compare the argument to 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A Same constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="Same.html" target="">Same</a>
+</div>
+</div>
+<a name="typeOf()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">typeOf</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function typeOf(cls:Class):<a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code><p>
+   Specifies that the argument must be, inherit from, or implement 
+   the class provided
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">cls</span>:Class</code> &mdash; The type (Class or Interface) 
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../constraints/AbstractConstraint.html">AbstractConstraint</a></code> &mdash; 
+                        A TypeOf constraint
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="TypeOf.html" target="">TypeOf</a>
+</div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->

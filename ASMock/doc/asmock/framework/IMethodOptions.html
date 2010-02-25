@@ -1,0 +1,763 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../print.css" type="text/css" media="print">
+<meta content="IMethodOptions,asmock.framework.IMethodOptions,repeat,callOriginalMethod,constraints,dispatchEvent,doAction,ignoreArguments,message,returnValue,throwError" name="keywords">
+<title>asmock.framework.IMethodOptions</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'IMethodOptions - ASMock API Documentation';
+				var baseRef = '../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">ASMock API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../all-classes.html')" href="../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../all-classes.html')" href="../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../index-list.html')" href="../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../index.html?asmock/framework/IMethodOptions.html&amp;asmock/framework/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Interface&nbsp;IMethodOptions</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Interface IMethodOptions"); titleBar_setSubNav(false,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">asmock.framework</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Interface</td><td class="classSignature">public interface IMethodOptions</td>
+</tr>
+</table>
+<p></p>
+  Represents the available options on the current method call expectation. Either 
+  returnValue, throwError, doAction or callOriginalMethod must be called before 
+  the next expectation can be recorded. 
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#repeat">repeat</a> : <a href="../framework/IRepeat.html">IRepeat</a>
+<div class="summaryTableDescription">[read-only]
+   Returns the expectation repeat options.</div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#callOriginalMethod()">callOriginalMethod</a>(option:uint = 0x0):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Specifies that any method calls should call the original implementation  
+   of the method.</div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#constraints()">constraints</a>(constraints:Array):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Allows arguments to be constrained by criterea rather than their recorded values.</div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#dispatchEvent()">dispatchEvent</a>(event:Event):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Dispatches an event when the expected method is called 
+   </div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#doAction()">doAction</a>(action:Function):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Delegates the execution of the method to the Function supplied.</div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#ignoreArguments()">ignoreArguments</a>():<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Changes the current expectation to no longer require the same parameters as 
+   it was recorded with.</div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#message()">message</a>(text:String):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Specifies a custom message for the expected method.</div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#returnValue()">returnValue</a>(value:Object):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Specifies the value to return with the expected method is called
+   
+   Should not be used with callOriginalMethod, doAction or throwError
+   </div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#throwError()">throwError</a>(error:Error):<a href="../framework/IMethodOptions.html">IMethodOptions</a>
+</div>
+<div class="summaryTableDescription">
+   Sets the error to throw with the expected method is called
+   
+   Should not be used with callOriginalMethod, doAction or returnValue
+   </div>
+</td><td class="summaryTableOwnerCol">IMethodOptions</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="repeat"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">repeat</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>repeat:<a href="../framework/IRepeat.html">IRepeat</a></code>&nbsp;&nbsp;[read-only]<p>
+   Returns the expectation repeat options.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get repeat():<a href="../framework/IRepeat.html">IRepeat</a></code>
+<br>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>var mck : IMessage = IMessage(mockRepository.create(IMessage));
+var fakeBody : Object = new Object();
+
+Expect.call(mck.body).returnValue(fakeBody).repeat.times(1, 3);
+mockRepository.replay(mck);
+
+trace(mck.body);
+trace(mck.body);
+trace(mck.body);
+// trace(mck.body); // would throw ExpectationViolationError if called a 4th time
+
+mockRepository.verify(mck);</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IRepeat_times",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="callOriginalMethod()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">callOriginalMethod</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function callOriginalMethod(option:uint = 0x0):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Specifies that any method calls should call the original implementation  
+   of the method. This method cannot be used if the mock represents an interface.
+   
+   Should not be used with returnValue, doAction or throwError 
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">option</span>:uint</code> (default = <code>0x0</code>)<code></code> &mdash; A value of OriginalCallOptions
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The IMethodOptions for the current expectation
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="OriginalCallOptions.html" target="">OriginalCallOptions</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+
+import flash.display.MovieClip;
+import flash.display.Scene;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+Expect.call(mck.currentScene).callOriginalMethod().repeat.once();
+mockRepository.replay(mck);
+
+var scene : Scene = mck.currentScene;
+// scene = mck.currentScene; // ExpectationViolationError if called a second time
+
+mck.verify(mck);</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_callOriginalMethod",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="constraints()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">constraints</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function constraints(constraints:Array):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Allows arguments to be constrained by criterea rather than their recorded values.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">constraints</span>:Array</code> &mdash; Array of AbstractConstraint objects, one for each parameter. Use And and Or to combine constraints.
+   
+   Use the static methods on Is, Property and Text to create the constraints.
+   
+   Should not be used with ignoreArguments()
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="constraints/Is.html" target="">asmock.framework.constraints.Is</a>
+<br>
+<a href="constraints/Text.html" target="">asmock.framework.constraints.Text</a>
+<br>
+<a href="constraints/Property.html" target="">asmock.framework.constraints.Property</a>
+<br>
+<a href="constraints/And.html" target="">asmock.framework.constraints.And</a>
+<br>
+<a href="constraints/Or.html" target="">asmock.framework.constraints.Or</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+import asmock.framework.SetupResult;
+import asmock.framework.constraints.Is;
+
+import flash.display.MovieClip;
+import flash.display.Scene;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+// Using constraints replaces the expectation on the original argument values
+Expect.call(mck.swapChildren(0,0)).constraints([
+    Is.all(Is.greaterThan(5), Is.lessThan(10)), // argument 1
+    Is.anything() // argument 2
+    ]);
+
+mockRepository.replay(mck);
+
+mck.swapChildren(6, 9); // ok
+// mck.swapChildren(4, 5); // ExpectationViolationError (argument 1 is not (5 &lt; x &gt; 10)
+
+mck.verify(mck);</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_constraints",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="dispatchEvent()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">dispatchEvent</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function dispatchEvent(event:Event):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Dispatches an event when the expected method is called 
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">event</span>:Event</code> &mdash; The event to raise
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="doAction()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">doAction</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function doAction(action:Function):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Delegates the execution of the method to the Function supplied. The function 
+   will be executed in the context of the mock object and should match the signature 
+   of the method being mocked.
+   
+   Should not be used with callOriginalMethod, returnValue or throwError 
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">action</span>:Function</code> &mdash; The function to be called instead of the method
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+
+import flash.display.DisplayObject;
+import flash.display.MovieClip;
+
+import mx.controls.TextArea;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+var specialReturnValue : DisplayObject = new TextArea();
+
+Expect.call(mck.getChildAt(5)).doAction(function(index : int) : DisplayObject
+{
+    // Some out of the ordinary logic for what happens here
+    
+    return specialReturnValue; // Value to be returned from method. 
+});
+
+mockRepository.replay(mck);
+
+mck.getChildAt(5); // specialReturnValue will be returned</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_doAction",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="ignoreArguments()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ignoreArguments</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function ignoreArguments():<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Changes the current expectation to no longer require the same parameters as 
+   it was recorded with.
+   
+   Should not be used with constraints()
+   </p><p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+import asmock.framework.SetupResult;
+import asmock.framework.constraints.Is;
+
+import flash.display.MovieClip;
+import flash.display.Scene;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+Expect.call(mck.swapChildren(5,5)).ignoreArguments(); // first call ignore arguments
+Expect.call(mck.swapChildren(1,1)); // second call default
+mockRepository.replay(mck);
+
+mck.swapChildren(6, 9); // ok
+// mck.swapChildren(4, 5); // ExpectationViolationError: arguments did not match (1, 1)
+
+mck.verify(mck);</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_ignoreArguments",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="message()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">message</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function message(text:String):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Specifies a custom message for the expected method. Any expectation related 
+   errors will contain this message, along with the related error message.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">text</span>:String</code> &mdash; The text to associate with this expectation
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+import asmock.framework.SetupResult;
+import asmock.framework.constraints.Is;
+
+import flash.display.MovieClip;
+import flash.display.Scene;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+Expect.call(mck.swapChildren(5,5)).message("TextBox swapped with Login control");
+mockRepository.replay(mck);
+
+// ExpectationViolationError including the message above 
+// and why the expectation failed
+mck.verify(mck);</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_message",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="returnValue()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">returnValue</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function returnValue(value:Object):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Specifies the value to return with the expected method is called
+   
+   Should not be used with callOriginalMethod, doAction or throwError
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; The value to return.
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+
+import flash.display.MovieClip;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+// Use SetupResult instead of Expect if the returnValue 
+// should be permanent (ie. can be called an unlimited number 
+// of times)
+Expect.call(mck.alpha).returnValue(0.5);
+Expect.call(mck.alpha).returnValue(0.6);
+Expect.call(mck.alpha).returnValue(0.7);
+
+mockRepository.replay(mck);
+
+var alpha : Number = mck.alpha;
+trace(alpha); // 0.5
+
+trace(mck.alpha); // 0.6
+trace(mck.alpha); // 0.7
+
+mck.verify(mck);</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_returnValue",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<a name="throwError()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">throwError</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function throwError(error:Error):<a href="../framework/IMethodOptions.html">IMethodOptions</a></code><p>
+   Sets the error to throw with the expected method is called
+   
+   Should not be used with callOriginalMethod, doAction or returnValue
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">error</span>:Error</code> &mdash; The error to throw
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../framework/IMethodOptions.html">IMethodOptions</a></code> &mdash; 
+                        The method options for the current method
+   
+                        
+                     </td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br>
+<div class="listing">
+<pre>import asmock.framework.Expect;
+
+import flash.display.MovieClip;
+
+import mx.controls.TextArea;
+
+var mck : MovieClip = MovieClip(mockRepository.create(MovieClip));
+
+Expect.call(mck.addChild(null)).ignoreArguments().throwError(new Error("test!");
+
+mockRepository.replay(mck);
+
+// Will throw the error specified above
+mck.addChild(new TextArea());</pre>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+				AC_FL_RunContent(
+					"src", "IMethodOptions_throwError",
+					"width", "100%",
+					"height", "400px",
+					"align", "middle",
+					"id", "",
+					"quality", "high",
+					"bgcolor", "",
+					"name", "",
+					"flashvars","",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.macromedia.com/go/getflashplayer"
+				);
+			--></script>
+<p></p>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
